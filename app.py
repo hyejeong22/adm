@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request, redirect, url_for, jsonify, session
 from werkzeug.utils import secure_filename
@@ -215,7 +214,7 @@ def delete_resident(resident_id):
 # ✅ 맨 마지막에 실행
 if __name__ == '__main__':
     app.run(debug=True)
-=======
+
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request, redirect, url_for, jsonify, session
 from werkzeug.utils import secure_filename
@@ -428,4 +427,3 @@ def delete_resident(resident_id):
 # ✅ 맨 마지막에 실행
 if __name__ == '__main__':
     app.run(debug=True)
->>>>>>> 20f56cd (Add files via upload)

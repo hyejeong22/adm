@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 if (document.getElementById('residentTableBody')) {
   loadTableResidents()
 }
@@ -93,7 +92,7 @@ function deleteResident(id) {
       .catch(() => alert('❌ 서버 오류'))
   })
 }
-=======
+
 if (document.getElementById('residentTableBody')) {
   loadTableResidents()
 }
@@ -188,4 +187,3 @@ function deleteResident(id) {
       .catch(() => alert('❌ 서버 오류'))
   })
 }
->>>>>>> 20f56cd (Add files via upload)
