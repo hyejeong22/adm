@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ---------- 공통 기본 ---------- */
 body {
   font-family: 'Inter', 'Noto Sans KR', sans-serif;
@@ -377,3 +378,68 @@ video {
     transform: translateY(-50%) rotate(360deg);
   }
 }
+=======
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+#reader {
+  width: 640px;
+  height: 480px;
+  margin: 20px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.modal-content input {
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.modal-buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+>>>>>>> 20f56cd (Add files via upload)

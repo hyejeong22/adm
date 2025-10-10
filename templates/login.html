@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ko">
   <head>
@@ -75,3 +76,56 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>관리자 로그인</title>
+    <style>
+      body {
+        background: #f3f6ff;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+      }
+      .login-box {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+      }
+      input {
+        width: 100%;
+        padding: 8px;
+        margin: 8px 0;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background: #6ea8fe;
+        border: none;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-box">
+      <h2>Admin 로그인</h2>
+      <form method="POST" action="/login">
+        <input type="text" name="username" placeholder="아이디" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="비밀번호"
+          required
+        />
+        <button type="submit">로그인</button>
+      </form>
+    </div>
+  </body>
+</html>
+>>>>>>> 20f56cd (Add files via upload)
