@@ -28,4 +28,4 @@ def get_connection():
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
     )
->>>>>>> 20f56cd (Add files via upload)
+>>>>>>> 8da52f5 (Initial commit for V Apartment admin page)
