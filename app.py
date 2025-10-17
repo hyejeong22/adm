@@ -9,7 +9,11 @@ from flask import send_from_directory
 import pymysql
 from flask import Flask, jsonify, render_template, request
 
-app = Flask(__name__)
+app = Flask(__name__,
+    static_folder='static',
+    static_url_path='/static',
+    template_folder='templates'
+)
 app.secret_key = '비밀키하나설정'  # 꼭 설정해야 세션이 작동함
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
